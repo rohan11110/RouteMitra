@@ -1,0 +1,70 @@
+node_modules
+# Dependencies
+node_modules/
+.pnp/
+.pnp.cjs
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+vitest-reports/
+
+# Turbo / tool caches
+.turbo/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local databases / generated data
+*.sqlite
+*.sqlite3
+*.db
+data/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+*.swp
+*.swo
+
+# Local certificates and keys
+*.pem
+*.key
+*.crt
+
+# Deployment/platform local state
+.vercel/
+.netlify/
+
+# Temporary files
+.tmp/
+.temp/
+*.bak
+*.orig
